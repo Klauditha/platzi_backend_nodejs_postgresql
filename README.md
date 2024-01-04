@@ -16,3 +16,18 @@
   ```
   docker-compose down
   ```
+
+  - Abrir una terminal
+  ```
+  docker-compose exec postgres bash
+  ```
+
+  - Ver contenedores corriendo con ID
+  ```
+  docker ps
+  ```
+
+  - Inspeccionar contenedor
+  ```
+  docker inspect ID
+  ```
